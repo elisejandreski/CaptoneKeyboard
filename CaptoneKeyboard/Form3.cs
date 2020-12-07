@@ -30,7 +30,7 @@ namespace CaptoneKeyboard
         private void radioButtonDarkTheme_CheckedChanged(object sender, EventArgs e)
         {
             //
-            // Write backColor for theme into Theme.txt
+            //Write backColor for theme into Theme.txt
             //
             string dataPath = @"Data/Theme.txt";
             File.WriteAllText(dataPath, "ControlText");
